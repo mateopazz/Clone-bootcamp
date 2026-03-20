@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Fira+Sans:wght@500;800&family=Gabarito&family=Inter&family=Inter+Tight:wght@600&family=Lora&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.navbar-left{
+    width: 60em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    color: rgb(153, 153, 153);
+}
+.navbar-left li:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+#bootcamp{
+    width: 10em;
+    
+}
+#bootcamp:hover{
+    cursor: pointer;
+}
+
+
+.navbar-left li{
+    list-style: none;
+}
+
+.navbar-right{
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-right button{
+    font-weight: bold;
+    
+    padding: 0.8em 1em;
+    border-radius: 0.5em;
+    border: 0px;
+    color: white;
+}
+#campus{
+    background-color: #202020;
+}
+
+#start{
+    background-color: rgb(79, 215, 143);
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.container p{
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.gratuito-bootcamp{
+    color: rgb(79, 215, 143);
+    font-size: 60px;
+    
+}
+
+
+.subtitle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(153, 153, 153);
+}
+
+
+.buttonempieza{
+    text-align: center;
+}
+.buttonempieza button{
+    background-color: #202020;
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+#person{
+    width: 15.5cm;
+}
+.persona{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+.compromisos, .personaliz, .rythm{
+    border: none;
+    display: flex; 
+    position: absolute;
+    padding: 1em 1.5em;
+    border-radius: 0.8em;
+    background-color: white;
+    box-shadow: -2px 5px 8px rgb(187, 187, 187);
+}
+.compromisos{
+   margin-top: 20em;
+   margin-left: 10em;
+}
+.personaliz{
+    margin-top: 25em;
+    margin-left: 15em;
+}
+
+.rythm{
+    margin-top: 18em;
+    margin-left: 24em;
+}
+
+#unlock, #pencil, #timer{
+    width: 1em;
+    margin-right: 1em;
+    border-radius: 10em;
+}
